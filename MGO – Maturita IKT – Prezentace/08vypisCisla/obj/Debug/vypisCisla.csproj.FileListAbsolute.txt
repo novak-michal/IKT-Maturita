@@ -1,0 +1,9 @@
+H:\aktualniRok\seminarProgramovani3\20162017\vypisCisla\bin\Debug\vypisCisla.exe.config
+H:\aktualniRok\seminarProgramovani3\20162017\vypisCisla\bin\Debug\vypisCisla.exe
+H:\aktualniRok\seminarProgramovani3\20162017\vypisCisla\bin\Debug\vypisCisla.pdb
+H:\aktualniRok\seminarProgramovani3\20162017\vypisCisla\obj\Debug\vypisCisla.csprojResolveAssemblyReference.cache
+H:\aktualniRok\seminarProgramovani3\20162017\vypisCisla\obj\Debug\vypisCisla.exe
+H:\aktualniRok\seminarProgramovani3\20162017\vypisCisla\obj\Debug\vypisCisla.pdb
+H:\informatika\programovani\!tretaciDvouletyKurz\08vypisCisla\bin\Debug\vypisCisla.exe.config
+H:\informatika\programovani\!tretaciDvouletyKurz\08vypisCisla\obj\Debug\vypisCisla.exe
+H:\informatika\programovani\!tretaciDvouletyKurz\08vypisCisla\obj\Debug\vypisCisla.pdb

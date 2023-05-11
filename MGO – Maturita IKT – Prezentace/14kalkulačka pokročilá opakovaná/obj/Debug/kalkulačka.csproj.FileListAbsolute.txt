@@ -1,0 +1,24 @@
+H:\aktualniRok\seminarProgramovani4\20162017\kalkulačka\bin\Debug\kalkulačka.exe.config
+H:\aktualniRok\seminarProgramovani4\20162017\kalkulačka\bin\Debug\kalkulačka.exe
+H:\aktualniRok\seminarProgramovani4\20162017\kalkulačka\bin\Debug\kalkulačka.pdb
+H:\aktualniRok\seminarProgramovani4\20162017\kalkulačka\obj\Debug\kalkulačka.csprojResolveAssemblyReference.cache
+H:\aktualniRok\seminarProgramovani4\20162017\kalkulačka\obj\Debug\kalkulačka.exe
+H:\aktualniRok\seminarProgramovani4\20162017\kalkulačka\obj\Debug\kalkulačka.pdb
+H:\aktualniRok\seminarProgramovani3\20162017\kalkulačka\bin\Debug\kalkulačka.exe.config
+H:\aktualniRok\seminarProgramovani3\20162017\kalkulačka\obj\Debug\kalkulačka.exe
+H:\aktualniRok\seminarProgramovani3\20162017\kalkulačka\obj\Debug\kalkulačka.pdb
+H:\aktualniRok\seminarProgramovani3\20162017\kalkulačka\bin\Debug\kalkulačka.exe
+H:\aktualniRok\seminarProgramovani3\20162017\kalkulačka\bin\Debug\kalkulačka.pdb
+H:\aktualniRok\seminarProgramovani3\20162017\kalkulačka\obj\Debug\kalkulačka.csprojResolveAssemblyReference.cache
+H:\aktualniRok\seminarProgramovani3\20162017\kalkulačka pokročilá\bin\Debug\kalkulačka.exe.config
+H:\aktualniRok\seminarProgramovani3\20162017\kalkulačka pokročilá\obj\Debug\kalkulačka.exe
+H:\aktualniRok\seminarProgramovani3\20162017\kalkulačka pokročilá\obj\Debug\kalkulačka.pdb
+H:\aktualniRok\seminarProgramovani3\20162017\kalkulačka pokročilá\bin\Debug\kalkulačka.exe
+H:\aktualniRok\seminarProgramovani3\20162017\kalkulačka pokročilá\bin\Debug\kalkulačka.pdb
+H:\aktualniRok\seminarProgramovani3\20162017\kalkulačka pokročilá\obj\Debug\kalkulačka.csprojResolveAssemblyReference.cache
+H:\aktualniRok\seminarProgramovani3\20162017\07kalkulačka pokročilá opakovaná\bin\Debug\kalkulačka.exe.config
+H:\aktualniRok\seminarProgramovani3\20162017\07kalkulačka pokročilá opakovaná\obj\Debug\kalkulačka.exe
+H:\aktualniRok\seminarProgramovani3\20162017\07kalkulačka pokročilá opakovaná\obj\Debug\kalkulačka.pdb
+H:\aktualniRok\seminarProgramovani3\20162017\07kalkulačka pokročilá opakovaná\bin\Debug\kalkulačka.exe
+H:\aktualniRok\seminarProgramovani3\20162017\07kalkulačka pokročilá opakovaná\bin\Debug\kalkulačka.pdb
+H:\aktualniRok\seminarProgramovani3\20162017\07kalkulačka pokročilá opakovaná\obj\Debug\kalkulačka.csprojResolveAssemblyReference.cache
