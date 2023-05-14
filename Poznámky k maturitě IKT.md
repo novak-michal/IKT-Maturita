@@ -1,12 +1,23 @@
----
-title: Poznámky k maturitě IKT
-updated: 2023-05-08 21:35:28Z
-created: 2023-04-30 13:40:12Z
-latitude: 50.07553810
-longitude: 14.43780050
-altitude: 0.0000
----
+# 5 Operační systémy
+Struktura: 
+![cd1c6e5e367f93d7602025f1ca9dce6d.png](_resources/cd1c6e5e367f93d7602025f1ca9dce6d.png)
 
+Komponenty: 
+![de8e0874714ba83e3d72aa16313edc27.png](_resources/de8e0874714ba83e3d72aa16313edc27.png)
+
+OS odpovídá za vytváření a rušení procesů a potlačení a obnovení procesů, poskytnutí mechanismů pro synchronizaci procesů a komunikaci mezi procesy.
+Musí:
+* Přidělovat operační paměť jednotlivým procesům, když
+si ji vyžádají.
+* Udržovat informace o paměti, o tom, která část je volná a
+která přidělená (a komu)
+* Zařazovat paměť, kterou procesy uvolní, opět do volné
+části.
+* Odebírat paměť procesům, je-li to zapotřebí.
+* Zajistit ochranu paměti (umožňuje-li to technické vybavení)
+-- žádný proces by neměl mít přístup k paměti jiného
+procesu nebo operačního systému, jestliže mu to 'vlastník'
+paměti explicitně nepovolí.
 
 ***
 ***
@@ -412,26 +423,73 @@ Pokud nepoužiji klíčová slova virtual a override a využil bych polymorfismu
 Pozn. Deklarace to co je na levé straně, inicializace (přiřazení hodnoty) to co je na pravé straně.
 
 # 22 
+## Vytvoření nového projektu
 Vytvořím nový projekt.
-![69550196560f10b5287b0d27305d4ce8.png](./_resources/69550196560f10b5287b0d27305d4ce8.png)
+![69550196560f10b5287b0d27305d4ce8.png](_resources/69550196560f10b5287b0d27305d4ce8.png)
 Pokud chci konzolovou aplikaci:
-![d0bfb5545b3ad0d4ac49b1af25a638c8.png](./_resources/d0bfb5545b3ad0d4ac49b1af25a638c8.png)
+![d0bfb5545b3ad0d4ac49b1af25a638c8.png](_resources/d0bfb5545b3ad0d4ac49b1af25a638c8.png)
 Pokud chci desktopovou aplikaci s talčítky apod:
-![54c2755ada001cfe55fecd4f15d71737.png](./_resources/54c2755ada001cfe55fecd4f15d71737.png)
+![54c2755ada001cfe55fecd4f15d71737.png](_resources/54c2755ada001cfe55fecd4f15d71737.png)
 
 Vyplním konfiguraci:
-![1383a7c4f808e24a380db35f97917eaf.png](./_resources/1383a7c4f808e24a380db35f97917eaf.png)
+![1383a7c4f808e24a380db35f97917eaf.png](_resources/1383a7c4f808e24a380db35f97917eaf.png)
 
 Nějaká základní navigace: 
-![3aeb182ce68f61c34e9f759fb58d9d4c.png](./_resources/3aeb182ce68f61c34e9f759fb58d9d4c.png)
+![3aeb182ce68f61c34e9f759fb58d9d4c.png](_resources/3aeb182ce68f61c34e9f759fb58d9d4c.png)
 
 Mě jako programátora zajímají hlavně soubory s příponou .cs
 Ještě mám sekci vlastnosti.
-![5cdcf40569f9c719c17e30f367cf133d.png](./_resources/5cdcf40569f9c719c17e30f367cf133d.png)
+![5cdcf40569f9c719c17e30f367cf133d.png](_resources/5cdcf40569f9c719c17e30f367cf133d.png)
 
 Vlastnosti a události:
-![805389c1fea925aead028083041b188c.png](./_resources/805389c1fea925aead028083041b188c.png)
+![805389c1fea925aead028083041b188c.png](_resources/805389c1fea925aead028083041b188c.png)
+***
+## Konvence pro psaní programu
+### Odsazování
+Každý blok nebo vnořená část kódu by měla být odsazena tabulátorem a čím hlouběji vnuřuji bloky, tím více odsazené mají být, př:
+Správně:
+![57329336495a2b8a0bcc45fbb0f7f603.png](_resources/57329336495a2b8a0bcc45fbb0f7f603.png)
+Špatně: 
+![d25afa90767f16410a4e4da7713a08de.png](_resources/d25afa90767f16410a4e4da7713a08de.png)
+Zároveň bych měl kód odsazovat do logických bloků i volnými řádky – dávat volný řádek mezi deklaracemi metod, oddělovat nějaké úseky příkazů apod. Př.: ![2c709af05f8c7962a9879d2837973f75.png](_resources/2c709af05f8c7962a9879d2837973f75.png)
+### Pojmenování a velikost písmen
+Každý programovací jazyk má nějaké konvence pro pojmenovávání metod, proměnných, tříd apod.
+Pro C#
+privátní atributy: _atribut
+vlastnost: Vlastnost
+metoda: Metoda
+dělší název: MetodaOVíceSlovech
+konstanta: KONSTANTA
+delší konstanta: MOJE_KONSTANTA
+Zároveň bych měl obecně dodržovat, aby byl kód v angličtině a tedy i názvy mít anglicky.
+Název by měl taky nějak odrážet to, co proměnná ukládá, nebo bych měl podle názvu metody poznat, co dělá.
+### Komentáře
+Přímo do kódu můžu dát komentáře. 
+Mohu vložit komentář na jeden řádek uvozením dvěma lomítky //
+Případně mohu dát nějkaý blokový komentář o několika řádcích do /* */
+Komentář vkládám nad to, co komentuji, případně na ten samý řádek.
+Obecně bych se měl snažit mít v kódu co nejméně komentářů, protože většina věcí stejně patří do dokumentace (vyjma např. JavaDoc anotací, nebo C# Annex summary). Příklad vhodného komentáře je třeba:
+```cs
+// TODO: Dodělat ukládání
+// FIXME: Nefunguje pro tenhle případ
+```
+V C# mohu dávat ke kódu tzv. summary, což je komentář, který slouží jako dokumentace. Píše se do speciálního bloku /// a používá pseudo značkovací jazyk. Př.:
+```cs
+/// <summary>
+/// Class <c>Point</c> models a point in a two-dimensional plane.
+/// </summary>
+public class Point
+{
+    /// <summary>
+    /// Method <c>Draw</c> renders the point.
+    /// </summary>
+    void Draw() {...}
+}
+```
+Text v summary mohu formátovat a stylovat s využitím různých značek.
 
+Dále bych měl kód řadit do různých tříd a souborů, neměl bych celý program nacpat do jednoho souboru o stovcích řádků. Dnešní praxe je taková, že se snažím co nejvíce kódu dát do samostatných metod, abych zajistil jejich znovupoužitelnost a deduplicitu kódu. Tvořím tedy elementární prvky algoritmu, které mohu snadno otestovat a následně z nich sestvit program.
+***
 ***
 # Poznámky
 ## Zápis speciálních znaků

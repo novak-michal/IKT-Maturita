@@ -133,6 +133,8 @@ if (cislo3 > 18)
   }
  */
 
+
+cislo5 = -50;
 switch (cislo5)
 {
  case 8:
