@@ -1,8 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_programovani_19_20", "CS_programovani_19_20\CS_programovani_19_20.csproj", "{0FC96931-E078-49A4-9CD7-53FAAC358F64}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_programovani_19_20", "CS_programovani_19_20\CS_programovani_19_20.csproj", "{0FC96931-E078-49A4-9CD7-53FAAC358F64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_programovani_21", "..\21\CS_programovani_21\CS_programovani_21.csproj", "{AB066D98-B76A-4311-97F4-94FC1D8BC850}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_programovani_21", "..\21\CS_programovani_21\CS_programovani_21.csproj", "{AB066D98-B76A-4311-97F4-94FC1D8BC850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22_Desktop_GUI", "..\22\22_Desktop_GUI\22_Desktop_GUI.csproj", "{04B4D571-0D68-46C3-B44B-CB075A7DC513}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +23,15 @@ Global
 		{AB066D98-B76A-4311-97F4-94FC1D8BC850}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB066D98-B76A-4311-97F4-94FC1D8BC850}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB066D98-B76A-4311-97F4-94FC1D8BC850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04B4D571-0D68-46C3-B44B-CB075A7DC513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B4D571-0D68-46C3-B44B-CB075A7DC513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B4D571-0D68-46C3-B44B-CB075A7DC513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B4D571-0D68-46C3-B44B-CB075A7DC513}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B3B05B7-37D1-413D-A13F-DA47E2870E03}
 	EndGlobalSection
 EndGlobal

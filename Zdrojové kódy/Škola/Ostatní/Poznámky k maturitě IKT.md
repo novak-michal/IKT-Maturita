@@ -1,9 +1,9 @@
 # 5 Operační systémy
 Struktura: 
-![cd1c6e5e367f93d7602025f1ca9dce6d.png](_resources/cd1c6e5e367f93d7602025f1ca9dce6d.png)
+![cd1c6e5e367f93d7602025f1ca9dce6d.png](../../_resources/cd1c6e5e367f93d7602025f1ca9dce6d.png)
 
 Komponenty: 
-![de8e0874714ba83e3d72aa16313edc27.png](_resources/de8e0874714ba83e3d72aa16313edc27.png)
+![de8e0874714ba83e3d72aa16313edc27.png](../../_resources/de8e0874714ba83e3d72aa16313edc27.png)
 
 OS odpovídá za vytváření a rušení procesů a potlačení a obnovení procesů, poskytnutí mechanismů pro synchronizaci procesů a komunikaci mezi procesy.
 Musí:
@@ -36,7 +36,7 @@ kterým krokem má pokračovat
 úloh a znovu ho použít.
 ***
 ## Vývojový diagram
-![dd2ec0cee16040beb205941388bf7003.png](_resources/dd2ec0cee16040beb205941388bf7003.png)
+![dd2ec0cee16040beb205941388bf7003.png](../../_resources/dd2ec0cee16040beb205941388bf7003.png)
 Start a konec algoritmu je v elipse nebo oválu.
 Vstupní / výstupní data / potřeby jsou v kosodélnících.
 Samotné příkazy se nacházejí v obdélnicích. 
@@ -457,24 +457,24 @@ Tedy jakmile jim dám nějakou hodnotu, už nejde potom změnit a daná proměnn
 # 22 
 ## Vytvoření nového projektu
 Vytvořím nový projekt.
-![69550196560f10b5287b0d27305d4ce8.png](_resources/69550196560f10b5287b0d27305d4ce8.png)
+![69550196560f10b5287b0d27305d4ce8.png](../../_resources/69550196560f10b5287b0d27305d4ce8.png)
 Pokud chci konzolovou aplikaci:
-![d0bfb5545b3ad0d4ac49b1af25a638c8.png](_resources/d0bfb5545b3ad0d4ac49b1af25a638c8.png)
+![d0bfb5545b3ad0d4ac49b1af25a638c8.png](../../_resources/d0bfb5545b3ad0d4ac49b1af25a638c8.png)
 Pokud chci desktopovou aplikaci s talčítky apod:
-![54c2755ada001cfe55fecd4f15d71737.png](_resources/54c2755ada001cfe55fecd4f15d71737.png)
+![54c2755ada001cfe55fecd4f15d71737.png](../../_resources/54c2755ada001cfe55fecd4f15d71737.png)
 
 Vyplním konfiguraci:
-![1383a7c4f808e24a380db35f97917eaf.png](_resources/1383a7c4f808e24a380db35f97917eaf.png)
+![1383a7c4f808e24a380db35f97917eaf.png](../../_resources/1383a7c4f808e24a380db35f97917eaf.png)
 
 Nějaká základní navigace: 
-![3aeb182ce68f61c34e9f759fb58d9d4c.png](_resources/3aeb182ce68f61c34e9f759fb58d9d4c.png)
+![3aeb182ce68f61c34e9f759fb58d9d4c.png](../../_resources/3aeb182ce68f61c34e9f759fb58d9d4c.png)
 
 Mě jako programátora zajímají hlavně soubory s příponou .cs
 
 ### Sada nástrojů
-![1e6a0bb076d1867560e291cf7823f9fa.png](_resources/1e6a0bb076d1867560e291cf7823f9fa.png)
+![1e6a0bb076d1867560e291cf7823f9fa.png](../../_resources/1e6a0bb076d1867560e291cf7823f9fa.png)
 Naleznu v ní základní komponenty pro tvorbu grafické aplikace, jako jsou tlačitka, popisky, textová pole, posuvníky, check-boxy aj.
-![735590237f72859a3dd11a63f834a1f2.png](_resources/735590237f72859a3dd11a63f834a1f2.png)
+![735590237f72859a3dd11a63f834a1f2.png](../../_resources/735590237f72859a3dd11a63f834a1f2.png)
 **TextBox** je základní prvek, do kterého uživatel může psát a zadávat nějakou hodnotu z klávesnice.
 **Label** je obecně nějaký popisek, často se váže k nějaké jiné komponentě.
 **Button** je tlačítko.
@@ -483,14 +483,14 @@ Naleznu v ní základní komponenty pro tvorbu grafické aplikace, jako jsou tla
 **Timer** je neviditelný prvek, funguje jako kuchyňská minutka.
 
 U každého prvku mohu ve vlastnostech upravit některé jeho příslušné vlastnosti, jako Font, barva pozadí, parba textu, velikost prvku, jestli je povolen či zakázán a jiné grafické či funkční vlastnosti.
-![5cdcf40569f9c719c17e30f367cf133d.png](_resources/5cdcf40569f9c719c17e30f367cf133d.png)
+![5cdcf40569f9c719c17e30f367cf133d.png](../../_resources/5cdcf40569f9c719c17e30f367cf133d.png)
 
 Vlastnosti (ten klíč) a události (ten blesk):
-![805389c1fea925aead028083041b188c.png](_resources/805389c1fea925aead028083041b188c.png)
+![805389c1fea925aead028083041b188c.png](../../_resources/805389c1fea925aead028083041b188c.png)
 ## Události
 V událostech mohu definovat, co se má stát (která metoda se má vykonat), pokud nastane nějaká událost, typu kliknutí myší na daný prvek, dvojklik, přetáhnutí souboru, nebo čistě hover (to že přes objekt přejedu myší) aj.
 Např. mohu do pole vedle Click a automaticky se mi vygeneruje metoda, která se vykoná po kliknutí (např. u tlačítka):
-![8593c8d9ee9f4214b8aa87f5842cea21.png](_resources/8593c8d9ee9f4214b8aa87f5842cea21.png)
+![8593c8d9ee9f4214b8aa87f5842cea21.png](../../_resources/8593c8d9ee9f4214b8aa87f5842cea21.png)
 Což bude právě obslužná metoda pro událost kliknutí.
 Zde pak mohu napsat nějaký kód, co se má vykonat.
 Ke každému tomu prvku mohu přistupovat jako k objektu.
@@ -501,10 +501,10 @@ Každý ten objekt (ten prvek) má tedy nějaké vlastnosti (zmíněné výše) 
 ### Odsazování
 Každý blok nebo vnořená část kódu by měla být odsazena tabulátorem a čím hlouběji vnuřuji bloky, tím více odsazené mají být, př:
 Správně:
-![57329336495a2b8a0bcc45fbb0f7f603.png](_resources/57329336495a2b8a0bcc45fbb0f7f603.png)
+![57329336495a2b8a0bcc45fbb0f7f603.png](../../_resources/57329336495a2b8a0bcc45fbb0f7f603.png)
 Špatně: 
-![d25afa90767f16410a4e4da7713a08de.png](_resources/d25afa90767f16410a4e4da7713a08de.png)
-Zároveň bych měl kód odsazovat do logických bloků i volnými řádky – dávat volný řádek mezi deklaracemi metod, oddělovat nějaké úseky příkazů apod. Př.: ![2c709af05f8c7962a9879d2837973f75.png](_resources/2c709af05f8c7962a9879d2837973f75.png)
+![d25afa90767f16410a4e4da7713a08de.png](../../_resources/d25afa90767f16410a4e4da7713a08de.png)
+Zároveň bych měl kód odsazovat do logických bloků i volnými řádky – dávat volný řádek mezi deklaracemi metod, oddělovat nějaké úseky příkazů apod. Př.: ![2c709af05f8c7962a9879d2837973f75.png](../../_resources/2c709af05f8c7962a9879d2837973f75.png)
 ### Pojmenování a velikost písmen
 Každý programovací jazyk má nějaké konvence pro pojmenovávání metod, proměnných, tříd apod.
 Pro C#
@@ -544,11 +544,11 @@ Text v summary mohu formátovat a stylovat s využitím různých značek.
 Dále bych měl kód řadit do různých tříd a souborů, neměl bych celý program nacpat do jednoho souboru o stovcích řádků. Dnešní praxe je taková, že se snažím co nejvíce kódu dát do samostatných metod, abych zajistil jejich znovupoužitelnost a deduplicitu kódu. Tvořím tedy elementární prvky algoritmu, které mohu snadno otestovat a následně z nich sestvit program.
 ## Ladění a testování programu
 Kdekoliv v programu si můžu dát na nějaký řádek červenou stopku (breakpoint).
-![6f8298a3e921b47728a89cf31a1a8bee.png](_resources/6f8298a3e921b47728a89cf31a1a8bee.png)
+![6f8298a3e921b47728a89cf31a1a8bee.png](../../_resources/6f8298a3e921b47728a89cf31a1a8bee.png)
 Následně mohu program spustit v tzv. debug módu. 
 V tomto módu se program spustí s pokročilým sledováním paměti, využití prostředků a mám možnost sledovat hodnoty proměnných a běh programu příkaz po příkazu. 
 Po spuštění debugu (u normální zelené šipky spustit) se mi program zastaví na řádku, kde mám právě tu stopku (může jich být i více). 
-![e8c4162a1cb64ec2886e675304743c46.png](_resources/e8c4162a1cb64ec2886e675304743c46.png)
+![e8c4162a1cb64ec2886e675304743c46.png](../../_resources/e8c4162a1cb64ec2886e675304743c46.png)
 Následně mohu ovládat běh programu v tom smyslu, že ručně klikám na krokování, které mi bude dále posouvat program (1) po jednotlivých příkazích.
 
 **Krokování s vnořením** - mi vejde do těla nějaké metody nebo bloku a pokračuje uvnitř (zdlouhavé). 
